@@ -129,7 +129,7 @@ instance.prototype.actions = function(system) {
 					id: 'blankId',
 					choices: [
 						{ id: '0', label: 'Off' },
-						{ id: '1', label: 'On' },
+						{ id: '1', label: 'On' }
 					]
 				}
 			]
@@ -143,7 +143,7 @@ instance.prototype.actions = function(system) {
 					id: 'frzId',
 					choices: [
 						{ id: '0', label: 'Off' },
-						{ id: '1', label: 'On' },
+						{ id: '1', label: 'On' }
 					]
 				}
 			]
@@ -157,7 +157,7 @@ instance.prototype.actions = function(system) {
 					id: 'muteId',
 					choices: [
 						{ id: '0', label: 'Off' },
-						{ id: '1', label: 'On' },
+						{ id: '1', label: 'On' }
 					]
 				}
 			]
@@ -216,7 +216,7 @@ instance.prototype.actions = function(system) {
 				break;
 
 			case 'blank':
-				cmd = '#Y 0 742,' + opt.blankId;
+				cmd = '#Y 0,742,' + opt.blankId;
 				break;
 
 			case 'switch_input':
